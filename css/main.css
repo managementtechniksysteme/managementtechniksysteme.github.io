@@ -1,3 +1,17 @@
+@font-face {
+ font-family:Roboto;
+ font-style:normal;
+ font-weight:400;
+ src:local("Roboto Regular"),
+ local("Roboto-Regular"),
+ url(/roboto-regular.woff) format('woff'),;
+ url(/roboto-regular.woff2) format('woff2')
+}
+
+body {
+  font-family: 'Roboto', Fallback, sans-serif;
+}
+
 .illustration {
   opacity: 0.6;
 }
