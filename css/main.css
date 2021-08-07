@@ -4,8 +4,8 @@
  font-weight:400;
  src:local("Roboto Regular"),
  local("Roboto-Regular"),
- url(/roboto-regular.woff) format('woff'),;
- url(/roboto-regular.woff2) format('woff2')
+ url(/font/roboto-regular.woff) format('woff'),
+ url(/font/roboto-regular.woff2) format('woff2');
 }
 
 body {
