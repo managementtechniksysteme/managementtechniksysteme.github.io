@@ -1,15 +1,12 @@
 @font-face {
- font-family:Roboto;
- font-style:normal;
- font-weight:400;
- src:local("Roboto Regular"),
- local("Roboto-Regular"),
- url(/font/roboto-regular.woff) format('woff'),
- url(/font/roboto-regular.woff2) format('woff2');
+ font-family: "Roboto";
+ src: 
+   url("/font/roboto-regular.woff2") format("woff2"),
+   url("/font/roboto-regular.woff") format("woff");
 }
 
 body {
-  font-family: 'Roboto', Fallback, sans-serif;
+  font-family: "Roboto", Fallback, sans-serif;
 }
 
 .illustration {
