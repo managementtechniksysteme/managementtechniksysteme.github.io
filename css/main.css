@@ -59,3 +59,8 @@ body {
 .illustration {
   opacity: 0.6;
 }
+
+.icon {
+  width: 1em;
+  height: 1em;
+}
